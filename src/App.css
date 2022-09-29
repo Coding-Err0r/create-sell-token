@@ -1,0 +1,35 @@
+body {
+  background: #000518;
+  color: white;
+}
+
+.active {
+  background: rgb(173, 3, 74) !important;
+  border-radius: 40px;
+}
+
+.slick-slider {
+  width: 500px;
+  margin-right: 50px;
+}
+.scroller {
+  position: relative;
+  border-radius: 10px;
+  padding-left: 8px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.scroller::-webkit-scrollbar-track {
+  background: #ff005540;
+  border-radius: 10px;
+}
+
+/* Handle */
+.scroller::-webkit-scrollbar-thumb {
+  background: #ff005565;
+  border-radius: 10px;
+}
